@@ -15,7 +15,7 @@ const loadDataFromLocalstorage = () => {
     themeButton.innerText = document.body.classList.contains("light-mode") ? "dark_mode" : "light_mode";
 
     const defaultText = `<div class="default-text">
-                            <h1>AnacondaGPT</h1>
+                            <h1>AnacondaGPT🐍</h1>
                             <p>Vanako da mapla🙏,<br>Computer la irunthu🖥️.</p>
                         </div>`
 
