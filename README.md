@@ -10,6 +10,7 @@ In the javascript file just edit the API_KEY
 const API_KEY = "****************************"
 
 It would be like the above comment
-You an generate your own API_KEY in the official openai website,and generate your own key and paste it in the js file and commit.
+
+You can generate your own API_KEY in the official openai website,and generate your own key and paste it in the js file and commit.
 
 SAYONARA!😉
