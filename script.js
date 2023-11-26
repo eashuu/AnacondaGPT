@@ -1,4 +1,5 @@
 const chatInput = document.querySelector("#chat-input");
+chatinturn = document.querySelector("#chat-input");
 const sendButton = document.querySelector("#send-btn");
 const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
@@ -92,8 +93,7 @@ const showTypingAnimation = () => {
 }
 
 const handleOutgoingChat = () => {
-  userText = chatInturn; // If chatInput is empty return from here
-
+  userText = chatInturn;// If chatInput is empty return from here
   // Clear the input field and reset its height
   chatInput.value = "";put.value.trim(); // Get chatInput value and remove extra spaces
   if(!userText) re
